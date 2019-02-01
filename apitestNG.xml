@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="APT Tests" parallel="false">
+	<test name="Test API">
+		<classes>
+			<class name="com.MeS.APITestsMaven.NewAPITests" />
+		</classes>
+	</test>
+</suite> 
